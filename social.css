@@ -1,0 +1,51 @@
+#socialm {
+  height: 400px;
+  width: 100%;
+  align-items: center;
+}
+#sociald {
+  height: 300px;
+  position: relative;
+  top: 150px;
+  left: 43%;
+  margin: 20px;
+}
+#sociald a {
+  margin: 20px;
+  border-radius: 30px;
+}
+#social a:hover {
+  font-size: 50px;
+  width: 90px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-instagram {
+  background: white;
+  color: red;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-reddit {
+  background: red;
+  color: white;
+}
